@@ -25,6 +25,4 @@ public class Member {
     @OneToMany(mappedBy = "member") // 연관관계 주인이 아님을 표시. 단지 거울에 비친 값이 됨. 읽기 전용.
     private List<Order> orders = new ArrayList<>();
 
-
-
 }
